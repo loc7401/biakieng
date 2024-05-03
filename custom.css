@@ -326,6 +326,10 @@
     .footer .container-fluid .row {
         padding: 20px 0 !important;
     }
+
+    .map .row-map h3::after {
+        right: 11%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
