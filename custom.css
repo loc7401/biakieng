@@ -268,6 +268,10 @@
     color: white;
 }
 
+#button-toggler {
+    /* box-shadow: 0 !important; */
+    background-color: #001729;
+}
 @media (max-width: 768px) {
     .offcanvas-body .navbar-nav {
         justify-content: flex-end;
@@ -314,6 +318,14 @@
     .company-separate {
         --top: 67px !important;
     }
+
+    .cart-wrap {
+        color: black !important;
+    }
+
+    .footer .container-fluid .row {
+        padding: 20px 0 !important;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
@@ -332,6 +344,14 @@
 
     .gioithieu-sp .row .button {
         margin-bottom: 20px;
+    }
+
+    .cart-wrap {
+        color: black !important;
+    }
+
+    .map .row-map h3::after {
+        right: 31%;
     }
 }
 
