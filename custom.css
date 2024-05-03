@@ -1,0 +1,383 @@
+:root {
+    --primary-color: #fdb003;
+}
+
+.header .container-fluid {
+    background-color: transparent;
+}
+
+.header .container-fluid .row {
+    min-height: 60px;
+    width: 1440px;
+    background: linear-gradient(to right, #004b76, #2e6ea2, #22397a, #008ddc);
+}
+
+.banner .container-fluid .row,
+.gioithieu-sp .container-fluid .row,
+.cam-ket .container-fluid .row {
+    max-width: 1440px;
+}
+
+.mau-sp .container-fluid .row {
+    max-width: 1330px;
+}
+
+.mau-sp .container-fluid {
+    background-image: url(./assets/image/Rectangle790.jpg);
+    background-size: cover;
+    min-height: 550px;
+    max-width: 1440px;
+}
+
+.header-row .col-lg-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-item a {
+    font-size: 0.9rem;
+}
+
+.header .col-lg-3 img {
+    margin-right: 65px;
+}
+
+.cart-wrap span i::after {
+    content: "2";
+    position: absolute;
+    top: -9px;
+    right: -7px;
+    width: 15px;
+    height: 15px;
+    color: black;
+    font-size: 0.6rem;
+    padding: 3px 4px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.cart-wrap span {
+    margin-right: 16px;
+}
+
+.gioithieu-sp .row h3 {
+    border-bottom: 1px solid #3336;
+    color: #1b55a6;
+}
+
+.mau-sp .row h3,
+.dat-hang .row h3,
+.cam-ket .row h3 {
+    color: #1b55a6;
+}
+
+.row-feature .list-feature li {
+    margin-bottom: 15px;
+}
+
+.feature-content {
+    font-size: 1rem;
+}
+
+.feature-content h4 {
+    color: #1b55a6;
+}
+
+.mau-sp .col-lg-3 {
+    width: 300px;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.dat-hang .container-fluid {
+    background-image: url(./assets/image/Rectangle832.jpg);
+    background-size: cover;
+    min-height: 550px;
+    max-width: 1440px;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-content p {
+    width: 100%;
+}
+
+.dat-hang .row .col-lg-4 {
+    height: 209px;
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    position: relative;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.dat-hang .row .button {
+    margin-top: 20px;
+}
+
+.dat-hang .row .col-lg-4::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    right: -9px;
+    width: 232px;
+    height: 20px;
+    background-color: #15a79d;
+    border-radius: 3px;
+    z-index: -1;
+}
+
+.dat-hang .row .col-lg-4 h3 {
+    font-size: 1.2rem;
+    margin-top: 26px;
+}
+
+.dat-hang .row .col-lg-4 h2 {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #15a79d, #22397a);
+    font-size: 5rem;
+    position: absolute;
+    top: -53px;
+    right: 43%;
+}
+
+.cam-ket .row-camket h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 9%;
+    width: 300px;
+    height: 1px;
+    background-color: #3333335e;
+}
+
+.map .row-map h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    right: 39%;
+    width: 300px;
+    height: 1px;
+    background-color: #3333335e;
+}
+
+.separate::after {
+    content: "";
+    position: absolute;
+    bottom: var(--bottom);
+    top: var(--top);
+    right: var(--right);
+    left: var(--left);
+    width: var(--width);
+    height: 2px;
+    background-color: var(--primary-color);
+}
+
+.company-separate {
+    --top: 45px;
+    --left: 0px;
+    --width: 250px;
+}
+
+.footer-link-separate {
+    --top: 45px;
+    --left: 0px;
+    --width: 150px;
+}
+
+.footer-connect-separate {
+    --top: 45px;
+    --left: 0px;
+    --width: 150px;
+}
+
+.cam-ket .row .col-lg-3 {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 320px;
+}
+
+.cam-ket .col-lg-3 h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.map .container-fluid {
+    min-height: 550px;
+    max-width: 1440px;
+    background-color: #00bcd433;
+}
+
+.lien-he .container-fluid {
+    background-image: url(./assets/image/khogiay.jpg);
+    background-size: cover;
+    min-height: 450px;
+    max-width: 1440px;
+    position: relative;
+}
+
+.lien-he .container-fluid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.lien-he .container-fluid .content {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer .container-fluid {
+    background-image: linear-gradient(to right, #001729, #004d8c);
+    min-height: 437px;
+    max-width: 1440px;
+}
+
+.footer .col-sm-12 {
+    color: white;
+    padding-left: 50px;
+}
+
+.footer .col-sm-12 h3 {
+    margin-bottom: 40px;
+    font-size: 1.4rem;
+}
+
+.copy-right-row {
+    height: 40px;
+    width: 100%;
+    background-color: #002543;
+    bottom: 0px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .offcanvas-body .navbar-nav {
+        justify-content: flex-end;
+    }
+
+    .header-row .container-fluid img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .header .offcanvas {
+        width: 70%;
+    }
+
+    .gioithieu-sp .col-content .button {
+        margin-bottom: 14px;
+    }
+
+    .dat-hang .row .col-lg-4 {
+        margin-bottom: 40px;
+    }
+
+    .dat-hang .row .col-lg-4:last-child {
+        margin-bottom: 10px;
+    }
+
+    .dat-hang .row {
+        margin-top: 16px !important;
+    }
+
+    .cam-ket .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cam-ket .row-camket h3::after {
+        right: 1% !important;
+    }
+
+    .copy-right-row {
+        display: none;
+    }
+
+    .company-separate {
+        --top: 67px !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .cam-ket .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dat-hang .col-lg-4 {
+        margin-bottom: 26px;
+    }
+
+    .dat-hang .row .button {
+        margin: 0;
+    }
+
+    .gioithieu-sp .row .button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .offcanvas-body .navbar-nav {
+        margin: 0 !important;
+    }
+
+    .offcanvas-body {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .header-row .container-fluid img {
+        margin-left: 80px;
+    }
+
+    .header-row .nav-item .nav-link {
+        color: white !important;
+    }
+
+    .gioithieu-sp .row-introduce h3,
+    .mau-sp .row h3 {
+        width: 50%;
+    }
+
+    .gioithieu-sp .row-introduce p,
+    .mau-sp .row p {
+        width: 75%;
+    }
+
+    .header .container-fluid .row {
+        padding: 4px 0px;
+    }
+
+    .col-content {
+        padding-right: 46px;
+    }
+
+    .row-feature {
+        margin-bottom: 20px;
+    }
+
+    .cam-ket .row img {
+        height: 442px;
+        width: 1124px;
+    }
+}
