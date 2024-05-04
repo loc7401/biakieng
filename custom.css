@@ -272,6 +272,11 @@
     /* box-shadow: 0 !important; */
     background-color: #001729;
 }
+
+.header-row .nav-item .nav-link:hover {
+    color: var(--primary-color);
+}
+
 @media (max-width: 768px) {
     .offcanvas-body .navbar-nav {
         justify-content: flex-end;
@@ -375,7 +380,7 @@
     }
 
     .header-row .nav-item .nav-link {
-        color: white !important;
+        color: white;
     }
 
     .gioithieu-sp .row-introduce h3,
